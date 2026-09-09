@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dava Anugrah Limanda - Portofolio</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #2563eb;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #1e293b);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: -2rem auto 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.2rem;
+            font-size: 1.4rem;
+        }
+
+        .item {
+            margin-bottom: 1.5rem;
+        }
+
+        .item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 0.3rem;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .item-subtitle {
+            font-size: 0.95rem;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        .item-date {
+            font-size: 0.85rem;
+            color: #64748b;
+            background: #e2e8f0;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            color: var(--accent-color);
+            margin-bottom: 0.4rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+            .item-date {
+                margin-top: 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dava Anugrah Limanda</h1>
+        <p>Sarjana Terapan Teknik Telekomunikasi | DevOps & Network Enthusiast</p>
+        <div class="contact-info">
+            <span>📞 +6288286138232</span>
+            <span>✉️ davaanugrahlimanda@gmail.com</span>
+            <span>📍 Palembang, Sumatera Selatan</span>
+            <span>🔗 <a href="https://www.linkedin.com/in/dava-al" target="_blank">LinkedIn Profile</a></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Profil Singkat -->
+        <section>
+            <h2>Profil Profesional</h2>
+            <p>Lulusan Sarjana Terapan (D4) Teknik Telekomunikasi dari Jurusan Teknik Elektro, Politeknik Negeri Sriwijaya[cite: 1]. Memiliki pemahaman dan pengalaman komprehensif di bidang Jaringan (Networking), Keamanan Siber (Cybersecurity), dan Internet of Things (IoT). Berpengalaman magang di AirNav Indonesia Cabang Palembang serta memiliki sertifikasi BNSP untuk DevOps Engineer (SKKNI) dan Junior Network Administrator[cite: 1]. Termotivasi berkarier di sektor teknik elektro, jaringan, dan telekomunikasi[cite: 1].</p>
+        </section>
+
+        <!-- Pendidikan -->
+        <section>
+            <h2>Pendidikan</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">Politeknik Negeri Sriwijaya</div>
+                        <div class="item-subtitle">Sarjana Terapan Teknik Telekomunikasi[cite: 1] (IPK: 3.54/4.00[cite: 1])</div>
+                    </div>
+                    <div class="item-date">2022 - 2026[cite: 1]</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pengalaman Magang -->
+        <section>
+            <h2>Pengalaman Magang</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">Perum LPPNPI Cabang Palembang (AirNav Indonesia)</div>
+                        <div class="item-subtitle">Divisi Communication Navigation Surveillance and Data Processing (CNSD)</div>
+                    </div>
+                    <div class="item-date">3 Feb 2025 - 3 Jul 2025[cite: 1]</div>
+                </div>
+                <ul>
+                    <li>Melakukan maintenance di ruang Radar dan mengganti Fuse Holder pada SELEX Middle Marker[cite: 1].</li>
+                    <li>Melakukan maintenance kabel Radio Link di stasiun DVOR[cite: 1].</li>
+                    <li>Melakukan maintenance pada Instrumen Landing System (ILS) seperti Localizer, Glide Path, dan Middle Marker[cite: 1].</li>
+                    <li>Melakukan maintenance pada Antenna Radio Link di ruang Air Traffic Control (ATC)[cite: 1].</li>
+                    <li>Melakukan pengecekan pada peralatan Doppler VHF Omnidirectional Range (DVOR) dan Distance Measuring Equipment (DME)[cite: 1].</li>
+                    <li>Melakukan pemeliharaan ketidakcocokan (mismatch maintenance) di fasilitas Radar[cite: 1].</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-top: 1.5rem;">
+                <div class="item-header">
+                    <div>
+                        <div class="item-title">PT Nurul Fikri Cipta Inovasi Academy (NF Academy)</div>
+                        <div class="item-subtitle">DevOps Engineer Intern</div>
+                    </div>
+                    <div class="item-date">1 Sep 2025 - 31 Des 2025[cite: 1]</div>
+                </div>
+                <ul>
+                    <li>Mengelola lingkungan server Linux (CLI, izin akses, manajemen layanan, manajemen paket)[cite: 1].</li>
+                    <li>Membangun lingkungan aplikasi kontainer menggunakan Docker & Docker Compose untuk konsistensi dan portabilitas sistem[cite: 1].</li>
+                    <li>Mempelajari alur kerja CI/CD dasar menggunakan GitLab CI dan Jenkins; mengelola kode sumber dengan Git & GitLab[cite: 1].</li>
+                    <li>Mengelola orkestrasi kontainer menggunakan Kubernetes, Helm, dan Helmfile; memantau dengan Prometheus & Grafana; serta deploy ke AWS[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Pengalaman Proyek -->
+        <section>
+            <h2>Pengalaman Proyek</h2>
+            
+            <div class="item">
+                <div class="item-title">Rancang Bangun Sistem Monitoring Spektrum Frekuensi Radio VHF FM & Airband Berbasis RTL-SDR[cite: 1]</div>
+                <ul>
+                    <li>Merancang sistem monitoring spektrum frekuensi radio pita VHF (87-108 MHz) dan Airband (108-137 MHz) secara real-time yang portabel[cite: 1].</li>
+                    <li>Mengintegrasikan RTL-SDR v3, LNA, modul GPS Neo-M8N, dan Raspberry Pi 4 Model B ke dalam box portabel[cite: 1].</li>
+                    <li>Mengimplementasikan pemrosesan sinyal Fast Fourier Transform (FFT) menggunakan GQRX untuk visualisasi spectrum & waterfall display[cite: 1].</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-top: 1.2rem;">
+                <div class="item-title">Troubleshooting Koneksi Radio Link pada Peralatan Glide Path - AirNav Palembang[cite: 1]</div>
+                <ul>
+                    <li>Menyelesaikan troubleshooting dan pemulihan koneksi radio link secara presisi pada peralatan Glide Path Mopiens di Runway 11 SMB II[cite: 1].</li>
+                    <li>Mengonfigurasi ulang parameter Access Point & Station serta melakukan pointing antena manual untuk merestorasi sistem RCSU dan PMDT[cite: 1].</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-top: 1.2rem;">
+                <div class="item-title">Simulasi dan Desain Infrastruktur Jaringan Berbasis Cisco Packet Tracer[cite: 1]</div>
+                <ul>
+                    <li>Merancang topologi multi-service LAN & WLAN terintegrasi (Router, Switch, Access Point, Server)[cite: 1].</li>
+                    <li>Konfigurasi layanan jaringan (DHCP, DNS, Web Server, FTP) serta manajemen pengalamatan IP menggunakan Subnetting VLSM[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sertifikasi -->
+        <section>
+            <h2>Sertifikasi</h2>
+            <ul>
+                <li>Sertifikat Ahli DevOps SKKNI - BNSP[cite: 1]</li>
+                <li>Sertifikat Ahli Administrator Jaringan Junior (PPIDK) - BNSP[cite: 1]</li>
+                <li>Sertifikat Magang DevOps Engineer - NF Academy[cite: 1]</li>
+                <li>Sertifikat Magang - Perum LPPNPI AirNav Indonesia Cabang Palembang[cite: 1]</li>
+            </ul>
+        </section>
+
+        <!-- Kemampuan Teknis & Software -->
+        <section>
+            <h2>Kemampuan & Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Teknis & Jaringan</h3>
+                    <ul>
+                        <li>Jaringan Komputer & Telekomunikasi[cite: 1]</li>
+                        <li>Cisco Packet Tracer, GNS3[cite: 1]</li>
+                        <li>MikroTik RouterOS & Winbox (Routing, NAT, QoS)[cite: 1]</li>
+                        <li>Docker, Kubernetes, AWS, CI/CD[cite: 1]</li>
+                        <li>IoT & SDR (GQRX, SDR Sharp)[cite: 1]</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Software & Tools</h3>
+                    <ul>
+                        <li>Visual Studio Code, Wireshark[cite: 1]</li>
+                        <li>Microsoft Office, Canva, PhotoScape[cite: 1]</li>
+                        <li>Linux CLI & Server Administration[cite: 1]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dava Anugrah Limanda. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
